@@ -16,18 +16,14 @@ Soft custom cursor · scroll-reveal animations · dark projects section · fully
 ## Quick Start
 
 ```bash
-# 1. Unzip and enter the project
-unzip chijioke-portfolio.zip
-cd portfolio
-
-# 2. Install dependencies
+# 1. Install dependencies
 yarn install
 
-# 3. Start dev server
+# 2. Start dev server
 yarn dev
 # → http://localhost:3000
 
-# 4. Production build
+# 3. Production build
 yarn build
 yarn start
 ```
