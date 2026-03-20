@@ -111,7 +111,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="anim-fade-up-4 absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
+      <div className="anim-fade-up-4 absolute bottom-10 left-1/2 -translate-x-1/2  flex-col items-center gap-2 hidden sm:flex">
         <span className="text-[0.7rem] tracking-[0.12em] uppercase text-grey-3">
           Scroll
         </span>

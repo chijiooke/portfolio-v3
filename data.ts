@@ -7,7 +7,7 @@ export const experience = [
     description:
       "Lead engineering for an embedded finance platform powering real-time financial transactions in the transportation sector. Designed event-driven microservices enabling scalable, secure, and fault-tolerant systems. Implemented CI/CD pipelines and automated deployments that reduced release times and minimised production errors.",
     achievement:
-      "Architected a fault-tolerant, event-driven credit disbursement and collections system in Go + GCP — improving business margin by over 80%.",
+      "Architected a fault-tolerant, event-driven credit disbursement and collections system in Go + GCP — improving business margin by over 85%.",
     tags: ["Go", "GCP Pub/Sub", "OpenTelemetry", "PostgreSQL", "MongoDB"],
   },
   {
