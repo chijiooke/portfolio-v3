@@ -1,4 +1,5 @@
 import { skills } from "@/data";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -14,19 +15,32 @@ export default function About() {
         </div>
 
         <div>
+          {/* Avatar */}
+          <div className="reveal d1 w-80 h-80 rounded-full overflow-hidden border border-grey-1">
+            <Image
+              src="/michael.png"
+              alt="Chijioke"
+              width={80}
+              height={80}
+             className="w-full h-full object-cover object-top grayscale"
+            />
+          </div>
           <h2
             className="reveal font-serif leading-[1.38] tracking-[-0.02em] text-ink mb-10"
             style={{ fontSize: "clamp(1.5rem, 2.6vw, 2.2rem)" }}
           >
-            Full-stack engineer. Product thinker. I own problems end-to-end.
+            Software engineer. Product thinker. I own problems end-to-end.
           </h2>
 
           <p className="reveal d1 text-[0.95rem] text-grey-4 leading-[1.8] max-w-[40rem] mb-8">
-            5+ years building across fintech, logistics, and consumer products — from performant & detailed user experinces
-            people love using to infrastructure that scales. Currently leading
-            engineering at{" "}
-            <strong className="font-medium text-ink">Scale (usescale.app)</strong>, where we went
-            from zero to 3,000+ users and hundreds of millions in transaction value in under 60 days.
+            5+ years building across fintech, logistics, and consumer products —
+            from performant & detailed user experiences people love using to
+            infrastructure that scales. Currently leading engineering at{" "}
+            <strong className="font-medium text-ink">
+              Scale (usescale.app)
+            </strong>
+            , where we went from zero to 3,000+ users and hundreds of millions
+            in transaction value in under 60 days.
           </p>
 
           {/* Skills grid */}
