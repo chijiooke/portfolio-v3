@@ -18,26 +18,19 @@ export default function About() {
             className="reveal font-serif leading-[1.38] tracking-[-0.02em] text-ink mb-10"
             style={{ fontSize: "clamp(1.5rem, 2.6vw, 2.2rem)" }}
           >
-            I design resilient systems that handle real money — reliably, at scale, every time.
+            Full-stack engineer. Product thinker. I own problems end-to-end.
           </h2>
 
-          <p className="reveal d1 text-[0.95rem] text-grey-4 leading-[1.8] max-w-[40rem] mb-6">
-            Engineering Lead and Senior Software Engineer with 5+ years of experience in distributed
-            backends and financial infrastructure. Currently leading engineering at{" "}
-            <strong className="font-medium text-ink">Scale (usescale.app)</strong> — an embedded
-            finance platform for the transportation sector, overseeing systems that processed hundreds
-            of millions in transaction value and scaled from 0 to 3,000+ active users in under 60 days of launch.
-          </p>
-
-          <p className="reveal d2 text-[0.95rem] text-grey-4 leading-[1.8] max-w-[40rem] mb-8">
-            My work sits at the intersection of systems thinking, fintech reliability, and product
-            ownership. I care deeply about fault tolerance, observability, and making deliberate
-            trade-offs between consistency, cost, and performance — especially in high-throughput,
-            real-money environments.
+          <p className="reveal d1 text-[0.95rem] text-grey-4 leading-[1.8] max-w-[40rem] mb-8">
+            5+ years building across fintech, logistics, and consumer products — from interfaces
+            people love using to infrastructure they never have to think about. Currently leading
+            engineering at{" "}
+            <strong className="font-medium text-ink">Scale (usescale.app)</strong>, where we went
+            from zero to 3,000+ users and hundreds of millions in transaction value in under 60 days.
           </p>
 
           {/* Skills grid */}
-          <div className="reveal d3 border-t border-grey-1 mt-4 grid grid-cols-2">
+          <div className="reveal d2 border-t border-grey-1 mt-4 grid grid-cols-2">
             {skills.map((skill) => (
               <div
                 key={skill}

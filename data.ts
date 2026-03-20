@@ -108,7 +108,7 @@ export const skills = [
   "PostgreSQL · MongoDB",
   "GCP Pub/Sub · Firebase",
   "Redis (geospatial + queues)",
-  "Docker · AWS · CI/CD",
+  "Docker · GCP · CI/CD",
   "Event-driven microservices",
   "WebSockets · WebRTC",
   "OpenTelemetry · Sentry",
