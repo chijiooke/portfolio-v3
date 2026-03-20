@@ -22,8 +22,8 @@ export default function About() {
           </h2>
 
           <p className="reveal d1 text-[0.95rem] text-grey-4 leading-[1.8] max-w-[40rem] mb-8">
-            5+ years building across fintech, logistics, and consumer products — from interfaces
-            people love using to infrastructure they never have to think about. Currently leading
+            5+ years building across fintech, logistics, and consumer products — from performant & detailed user experinces
+            people love using to infrastructure that scales. Currently leading
             engineering at{" "}
             <strong className="font-medium text-ink">Scale (usescale.app)</strong>, where we went
             from zero to 3,000+ users and hundreds of millions in transaction value in under 60 days.
