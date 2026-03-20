@@ -7,8 +7,8 @@ export const experience = [
     description:
       "Lead engineering for an embedded finance platform powering real-time financial transactions in the transportation sector. Designed event-driven microservices enabling scalable, secure, and fault-tolerant systems. Implemented CI/CD pipelines and automated deployments that reduced release times and minimised production errors.",
     achievement:
-      "Architected a fault-tolerant, event-driven credit disbursement and collections system in Go + GCP — improving business margin by 120%.",
-    tags: ["Go", "GCP Pub/Sub", "OpenTelemetry", "PostgreSQL"],
+      "Architected a fault-tolerant, event-driven credit disbursement and collections system in Go + GCP — improving business margin by over 80%.",
+    tags: ["Go", "GCP Pub/Sub", "OpenTelemetry", "PostgreSQL", "MongoDB"],
   },
   {
     period: "Jan 2024 — Mar 2025",
@@ -19,7 +19,7 @@ export const experience = [
       "Spearheaded event-driven distributed architecture using message brokers to synchronise services and build a full audit trail. Designed the Core Orchestrator Service managing users, businesses, RBAC, and service-to-service event logic. Enhanced driver and vehicle management systems across multiple apps.",
     achievement:
       "Designed the partner invoicing and split-payment finance service — improving settlement speed and payout approval rates by over 60%.",
-    tags: ["Go", "TypeScript", "Message Brokers", "RBAC"],
+    tags: ["Go", "TypeScript", "Message Brokers", "RBAC", "MongoDB"],
   },
   {
     period: "Jun 2023 — Jan 2024",

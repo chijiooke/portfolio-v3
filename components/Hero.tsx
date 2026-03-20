@@ -24,7 +24,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col justify-end px-16 pb-20 relative overflow-hidden"
+      className="min-h-screen flex flex-col justify-end px-6 sm:px-10 lg:px-16 pb-20 relative overflow-hidden"
     >
       {/* Faint bg word */}
       <span
@@ -36,7 +36,7 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-6xl">
         {/* Eyebrow */}
-        <p className="anim-fade-up-1 text-[0.74rem] tracking-[0.15em] uppercase text-grey-3 mb-6">
+        <p className="anim-fade-up-1 text-[0.74rem] tracking-[0.15em] uppercase text-grey-3 mb-6 mt-20 sm:mt-0">
           Senior Software Engineer · Lagos, Nigeria
         </p>
 
@@ -73,7 +73,7 @@ export default function Hero() {
         </h1>
 
         {/* Bottom row */}
-        <div className="anim-fade-up-3 flex justify-between items-end gap-8 flex-wrap">
+        <div className="anim-fade-up-3 flex flex-col sm:flex-row sm:justify-between sm:items-end gap-8">
           <p className="text-[1rem] text-grey-4 leading-[1.75] max-w-[26rem]">
             5+ years building across the full stack — from polished, performant
             UIs to fault-tolerant distributed systems and high-throughput
@@ -87,7 +87,7 @@ export default function Hero() {
               scale.app
             </a>
           </p>
-          <div className="flex flex-col items-end gap-3">
+          <div className="flex flex-col sm:items-end gap-3">
             <a
               href="#projects"
               className="inline-flex items-center gap-3 text-[0.78rem] tracking-[0.1em] uppercase text-ink no-underline px-8 py-4 border border-ink rounded-full transition-all duration-200 hover:bg-ink hover:text-cream font-normal group"

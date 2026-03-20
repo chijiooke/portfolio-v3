@@ -2,12 +2,12 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="px-16 py-40 flex flex-col items-center text-center relative overflow-hidden"
+      className="px-6 sm:px-10 lg:px-16 py-28 lg:py-40 flex flex-col items-center text-center relative overflow-hidden"
     >
       {/* Soft radial bg */}
       <div
         aria-hidden
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[60vw] max-w-[700px] max-h-[700px] rounded-full pointer-events-none opacity-50"
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] h-[90vw] sm:w-[60vw] sm:h-[60vw] max-w-[700px] max-h-[700px] rounded-full pointer-events-none opacity-50"
         style={{
           background: "radial-gradient(circle, #e8e7e3 0%, transparent 70%)",
         }}
@@ -19,7 +19,7 @@ export default function Contact() {
 
       <h2
         className="reveal d1 relative font-serif tracking-[-0.03em] leading-[1] mb-10"
-        style={{ fontSize: "clamp(2.8rem, 5.5vw, 5rem)" }}
+        style={{ fontSize: "clamp(2.2rem, 5.5vw, 5rem)" }}
       >
         Let's build
         <br />
@@ -29,13 +29,13 @@ export default function Contact() {
 
       <a
         href="mailto:silva.chijioke.michael@gmail.com"
-        className="reveal d2 relative font-serif tracking-[-0.01em] text-grey-4 no-underline border-b border-grey-2 pb-1 transition-colors duration-200 hover:text-ink hover:border-ink"
-        style={{ fontSize: "clamp(1rem, 2vw, 1.5rem)" }}
+        className="reveal d2 relative font-serif tracking-[-0.01em] text-grey-4 no-underline border-b border-grey-2 pb-1 transition-colors duration-200 hover:text-ink hover:border-ink break-all sm:break-normal"
+        style={{ fontSize: "clamp(0.85rem, 2vw, 1.5rem)" }}
       >
         silva.chijioke.michael@gmail.com
       </a>
 
-      <div className="reveal d3 relative flex gap-8 mt-12">
+      <div className="reveal d3 relative flex gap-6 sm:gap-8 mt-12">
         {[
           { label: "GitHub",   href: "https://github.com/chijiooke" },
           { label: "LinkedIn", href: "https://linkedin.com/in/chijiooke" },
