@@ -4,13 +4,33 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Chijioke Michael — Senior Software Engineer",
   description:
-    "Senior Software Engineer & Engineering Lead. Building fault-tolerant distributed systems and high-throughput.",
-  keywords: ["software engineer", "engineering lead", "golang", "typescript", "fintech", "distributed systems"],
-  authors: [{ name: "Silva Chijioke Michael" }],
+    "I build things end-to-end — from the details of a UI that feels right to the infrastructure holding it all together. 5+ years across fintech, logistics, and consumer products. Currently leading engineering at Scale, where we went from zero to 3,000+ users and hundreds of millions in transaction value in 60 days.",
+  keywords: [
+    "software engineer",
+    "engineering lead",
+    "golang",
+    "typescript",
+    "fintech",
+    "distributed systems",
+    "backend engineer",
+    "system design",
+    "high-throughput",
+    "scalable systems",
+  ],
+  authors: [{ name: "Chijioke Michael" }],
   openGraph: {
-    title: "Chijioke Michael — Engineering Lead",
-    description: "Building fault-tolerant distributed systems and high-throughput.",
+    title: "Chijioke Michael — Senior Software Engineer & Engineering Lead",
+    description:
+      "I build things end-to-end — from the details of a UI that feels right to the infrastructure holding it all together. 5+ years across fintech, logistics, and consumer products. Currently leading engineering at Scale, where we went from zero to 3,000+ users and hundreds of millions in transaction value in 60 days.",
     type: "website",
+    images: [
+      {
+        url: "/michael.png",
+        width: 800,
+        height: 800,
+        alt: "Chijioke Michael — Senior Software Engineer",
+      },
+    ],
   },
 };
 
