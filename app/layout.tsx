@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Chijioke Michael — Engineering Lead",
+  title: "Chijioke Michael — Senior Software Engineer",
   description:
-    "Senior Software Engineer & Engineering Lead. Building fault-tolerant distributed systems and high-throughput financial infrastructure.",
+    "Senior Software Engineer & Engineering Lead. Building fault-tolerant distributed systems and high-throughput.",
   keywords: ["software engineer", "engineering lead", "golang", "typescript", "fintech", "distributed systems"],
   authors: [{ name: "Silva Chijioke Michael" }],
   openGraph: {
     title: "Chijioke Michael — Engineering Lead",
-    description: "Building fault-tolerant distributed systems and high-throughput financial infrastructure.",
+    description: "Building fault-tolerant distributed systems and high-throughput.",
     type: "website",
   },
 };

@@ -9,9 +9,14 @@ export default function About() {
     >
       <div className="grid lg:grid-cols-[1fr_1.6fr] gap-10 lg:gap-24">
         <div>
-          <p className="reveal text-[0.72rem] tracking-[0.15em] uppercase text-grey-3 mb-8 pt-1">
+          <p className="reveal text-[0.72rem] tracking-[0.15em] uppercase text-grey-3 mb-8 pt-1"></p>
+
+          <h2
+            className="font-serif tracking-[-0.03em] leading-none"
+            style={{ fontSize: "clamp(2rem, 4vw, 3.5rem)" }}
+          >
             About me
-          </p>
+          </h2>
         </div>
 
         <div>
@@ -22,7 +27,7 @@ export default function About() {
               alt="Chijioke"
               width={80}
               height={80}
-             className="w-full h-full object-cover object-top grayscale"
+              className="w-full h-full object-cover object-top grayscale"
             />
           </div>
           <h2
