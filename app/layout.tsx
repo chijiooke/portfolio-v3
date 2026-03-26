@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.chijiokesilva.xyz"),
   title: "Chijioke Michael — Senior Software Engineer",
   description:
     "I build things end-to-end — from the details of a UI that feels right to the infrastructure holding it all together. 5+ years across fintech, logistics, and consumer products. Currently leading engineering at Scale, where we went from zero to 3,000+ users and hundreds of millions in transaction value in 60 days.",

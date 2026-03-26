@@ -3,7 +3,8 @@ export const experience = [
     period: "Mar 2025 — Present",
     type: "Engineering Lead",
     company: "Scale (usescale.app)",
-    role: "Engineering Lead · Renda",
+    role: "Engineering Lead",
+    url:"usescale.app",
     description:
       "Lead engineering for an embedded finance platform powering real-time financial transactions in the transportation sector. Designed event-driven microservices enabling scalable, secure, and fault-tolerant systems. Implemented CI/CD pipelines and automated deployments that reduced release times and minimised production errors.",
     achievement:
@@ -14,27 +15,30 @@ export const experience = [
     period: "Jan 2024 — Mar 2025",
     type: "Senior Engineer",
     company: "Renda (360.renda.co)",
-    role: "Senior Software Engineer · Go + TypeScript",
+    role: "Senior Software Engineer · Go + TypeScript(ReactJs)",
+    url:"360.renda.co",
     description:
       "Spearheaded event-driven distributed architecture using message brokers to synchronise services and build a full audit trail. Designed the Core Orchestrator Service managing users, businesses, RBAC, and service-to-service event logic. Enhanced driver and vehicle management systems across multiple apps.",
     achievement:
       "Designed the partner invoicing and split-payment finance service — improving settlement speed and payout approval rates by over 60%.",
-    tags: ["Go", "TypeScript", "Message Brokers", "RBAC", "MongoDB"],
+    tags: ["Go", "TypeScript", "Message Brokers", "RBAC", "MongoDB","ReactJS", "NextJs"],
   },
   {
     period: "Jun 2023 — Jan 2024",
     type: "Senior Frontend",
     company: "Renda (renda.co)",
+    url:"renda.co",
     role: "Senior Frontend Engineer",
     description:
       "Led frontend development for two client-facing apps — Customer and Delivery Partner. Refactored codebase and tooling, consolidating shared UI components and reducing technical debt across the board.",
-    achievement: "Cut frontend delivery time by 40%, enabling timely release of v1.",
+    achievement: "Cut frontend delivery time by 40%, enabling timely release of v1 and the raise of $1.9m pre-seed",
     tags: ["React", "Next.js", "TypeScript"],
   },
   {
     period: "Apr 2021 — Jun 2023",
     type: "Full-Stack",
     company: "Multonion",
+    url:"www.multonion.com",
     role: "Fullstack Engineer (founding engr)",
     description:
       "Built business onboarding, document management, and tender management systems. Collaborated with cross-functional teams to deliver scalable features on a consistent cadence.",

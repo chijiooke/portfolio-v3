@@ -2,7 +2,10 @@ import { experience } from "@/data";
 
 export default function Experience() {
   return (
-    <section id="experience" className="px-6 sm:px-10 lg:px-16 pb-24 lg:pb-36 max-w-screen-2xl mx-auto">
+    <section
+      id="experience"
+      className="px-6 sm:px-10 lg:px-16 pb-24 lg:pb-36 max-w-screen-2xl mx-auto"
+    >
       {/* Header */}
       <div className="reveal flex justify-between items-baseline mb-12 lg:mb-16 pb-6 border-b border-grey-1">
         <h2
@@ -21,18 +24,21 @@ export default function Experience() {
         {experience.map((exp, i) => (
           <div
             key={i}
-            className={`exp-row reveal ${i > 0 ? `d${Math.min(i, 4)}` : ""} grid py-8 lg:py-10 border-b border-grey-1 gap-4 lg:gap-12`}
+            className={`exp-row reveal ${
+              i > 0 ? `d${Math.min(i, 4)}` : ""
+            } grid py-8 lg:py-10 border-b border-grey-1 gap-4 lg:gap-12`}
             style={{ gridTemplateColumns: "1fr" }}
           >
             {/* Mobile: period + badge inline */}
             <div className="flex items-center gap-3 lg:flex-col lg:items-start lg:gap-2 lg:w-48">
-              <span className="text-[0.78rem] text-grey-3 tracking-[0.05em]">{exp.period}</span>
+              <span className="text-[0.78rem] text-grey-3 tracking-[0.05em]">
+                {exp.period}
+              </span>
               <span className="inline-block text-[0.68rem] tracking-[0.08em] uppercase px-3 py-1 border border-grey-1 rounded-full text-grey-3 w-fit">
                 {exp.type}
               </span>
             </div>
 
-            {/* Center: content */}
             <div>
               <div className="flex items-start justify-between gap-4">
                 <div>
@@ -41,8 +47,20 @@ export default function Experience() {
                   </p>
                   <p className="text-[0.84rem] text-grey-3 mb-3">{exp.role}</p>
                 </div>
-                {/* Arrow — moved here on mobile so it's inline with title */}
-                <div className="text-grey-2 text-[1.1rem] pt-1 flex-shrink-0">↗</div>
+                {exp.url && (
+                  <a
+                    href={
+                      exp.url.startsWith("http")
+                        ? exp.url
+                        : `https://${exp.url}`
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-grey-2 text-[1.1rem] pt-1 flex-shrink-0"
+                  >
+                    ↗
+                  </a>
+                )}
               </div>
 
               <p className="text-[0.88rem] text-grey-4 leading-[1.75]">
