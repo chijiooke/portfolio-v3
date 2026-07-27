@@ -22,16 +22,26 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Chijioke Michael — Senior Software Engineer & Engineering Lead",
     description:
-      "I build things end-to-end — from the details of a UI that feels right to the infrastructure holding it all together. 5+ years across fintech, logistics, and consumer products. Currently leading engineering at Scale, where we went from zero to 3,000+ users and hundreds of millions in transaction value in 60 days.",
+      "Full-stack engineer, 5+ years across fintech and logistics — polished UIs to high-throughput financial infrastructure. Currently leading engineering at Scale.",
+    url: "https://www.chijiokesilva.xyz",
+    siteName: "Chijioke Michael",
+    locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/michael.png",
-        width: 800,
-        height: 800,
+        url: "/og.jpg",
+        width: 1200,
+        height: 630,
         alt: "Chijioke Michael — Senior Software Engineer",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Chijioke Michael — Senior Software Engineer & Engineering Lead",
+    description:
+      "Full-stack engineer, 5+ years across fintech and logistics — polished UIs to high-throughput financial infrastructure. Currently leading engineering at Scale.",
+    images: ["/og.jpg"],
   },
 };
 

@@ -21,10 +21,11 @@ export default function Contact() {
         className="reveal d1 relative font-serif tracking-[-0.03em] leading-[1] mb-10"
         style={{ fontSize: "clamp(2.2rem, 5.5vw, 5rem)" }}
       >
-        Let's build
+        Say hello.
         <br />
-        something{" "}
-        <em className="font-serif italic text-grey-3">resilient.</em>
+        <em className="font-serif italic text-grey-3">
+          I always write back.
+        </em>
       </h2>
 
       <a

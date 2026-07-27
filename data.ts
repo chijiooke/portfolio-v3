@@ -3,57 +3,90 @@ export const experience = [
     period: "Mar 2025 — Present",
     type: "Engineering Lead",
     company: "Scale (usescale.app)",
-    role: "Engineering Lead",
-    url:"usescale.app",
-    description:
-      "Lead engineering for an embedded finance platform powering real-time financial transactions in the transportation sector. Designed event-driven microservices enabling scalable, secure, and fault-tolerant systems. Implemented CI/CD pipelines and automated deployments that reduced release times and minimised production errors.",
-    achievement:
-      "Architected a fault-tolerant, event-driven credit disbursement and collections system in Go + GCP — improving business margin by over 85%.",
-    tags: ["Go", "GCP Pub/Sub", "OpenTelemetry", "PostgreSQL", "MongoDB"],
+    url: "usescale.app",
+    roles: [
+      {
+        period: "Mar 2025 — Present",
+        role: "Engineering Lead",
+        url: null,
+        description:
+          "Lead engineering for an embedded finance platform powering real-time financial transactions in the transportation sector. Designed event-driven microservices enabling scalable, secure, and fault-tolerant systems. Implemented CI/CD pipelines and automated deployments that reduced release times and minimised production errors.",
+        achievement:
+          "Architected a custom fault-tolerant credit disbursement and collections system, enabling real-time financial transactions for thousands of users.",
+        tags: ["Go", "GCP Pub/Sub", "OpenTelemetry", "PostgreSQL", "MongoDB"],
+      },
+    ],
   },
   {
-    period: "Jan 2024 — Mar 2025",
+    period: "Jun 2023 — Mar 2025",
     type: "Senior Engineer",
-    company: "Renda (360.renda.co)",
-    role: "Senior Software Engineer · Go + TypeScript(ReactJs)",
-    url:"360.renda.co",
-    description:
-      "Spearheaded event-driven distributed architecture using message brokers to synchronise services and build a full audit trail. Designed the Core Orchestrator Service managing users, businesses, RBAC, and service-to-service event logic. Enhanced driver and vehicle management systems across multiple apps.",
-    achievement:
-      "Designed the partner invoicing and split-payment finance service — improving settlement speed and payout approval rates by over 60%.",
-    tags: ["Go", "TypeScript", "Message Brokers", "RBAC", "MongoDB","ReactJS", "NextJs"],
-  },
-  {
-    period: "Jun 2023 — Jan 2024",
-    type: "Senior Frontend",
     company: "Renda (renda.co)",
-    url:"renda.co",
-    role: "Senior Frontend Engineer",
-    description:
-      "Led frontend development for two client-facing apps — Customer and Delivery Partner. Refactored codebase and tooling, consolidating shared UI components and reducing technical debt across the board.",
-    achievement: "Cut frontend delivery time by 40%, enabling timely release of v1 and the raise of $1.9m pre-seed",
-    tags: ["React", "Next.js", "TypeScript"],
+    url: "https://renda.co",
+    roles: [
+      {
+        period: "Jan 2024 — Mar 2025",
+        role: "Senior Software Engineer (Backend Lead)",
+        url: null,
+        description:
+          "Led the backend team, spearheading the architecture of the internal finance service. Designed the Core Orchestrator Service managing users, businesses, RBAC, and service-to-service event logic. Enhanced driver and vehicle management systems across multiple apps.",
+        achievement:
+          "Designed the partner invoicing and split-payment finance service — improving settlement speed and payout approval rates by over 60%, drove the use of advanced software engineering practices, including event-driven architecture, server-to-server communication, and robust testing strategies, resulting in a 50% reduction in production incidents.",
+        tags: [
+          "Go",
+          "GRPC",
+          "TypeScript",
+          "Message Brokers",
+          "RBAC",
+          "MongoDB",
+          "ReactJS",
+          "NextJs",
+        ],
+      },
+      {
+        period: "Jun 2023 — Jan 2024",
+        role: "Senior Frontend Engineer",
+        url: null,
+        description:
+          "Led frontend development for two client-facing apps — Customer and Delivery Partner. Refactored codebase and tooling, consolidating shared UI components and reducing technical debt across the board. The v1 launch became the product story behind Renda's fundraise.",
+        achievement:
+          "Cut frontend delivery time by 40%, shipping v1 on schedule and putting the product in front of investors for Renda's $1.9m pre-seed round, led by Techstars in 2022.",
+        tags: ["React", "Next.js", "TypeScript"],
+      },
+    ],
   },
   {
     period: "Apr 2021 — Jun 2023",
     type: "Full-Stack",
-    company: "Multonion",
-    url:"www.multonion.com",
-    role: "Fullstack Engineer (founding engr)",
-    description:
-      "Built business onboarding, document management, and tender management systems. Collaborated with cross-functional teams to deliver scalable features on a consistent cadence.",
-    achievement: null,
-    tags: ["React", "Node.js", "TypeORM"],
+    company: "Multonion (multonion.com)",
+    url: "www.multonion.com",
+    roles: [
+      {
+        period: "Apr 2021 — Jun 2023",
+        role: "Fullstack Engineer (founding engr)",
+        url: null,
+        description:
+          "Built business onboarding, document management, and tender management systems. Collaborated with cross-functional teams to deliver scalable features on a consistent cadence.",
+        achievement: null,
+        tags: ["React", "Node.js", "TypeORM"],
+      },
+    ],
   },
   {
     period: "2019 — 2021",
     type: "Earlier Roles",
     company: "Raaxo · Nativedge · LYDIAfrica",
-    role: "Frontend Engineer / Creative Developer / Volunteer",
-    description:
-      "Delivered performant projects at Raaxo Synergy; designed and deployed an e-commerce mobile app prototype at Nativedge; managed website and digital presence for LYDIAfrica NGO.",
-    achievement: null,
-    tags: ["JavaScript", "CSS", "Web Design"],
+    url: null,
+    roles: [
+      {
+        period: "2019 — 2021",
+        role: "Frontend Engineer / Creative Developer / Volunteer",
+        url: null,
+        description:
+          "Delivered performant projects at Raaxo Synergy; designed and deployed an e-commerce mobile app prototype at Nativedge; managed website and digital presence for LYDIAfrica NGO.",
+        achievement: null,
+        tags: ["JavaScript", "CSS", "Web Design"],
+      },
+    ],
   },
 ];
 
@@ -69,21 +102,21 @@ export const projects = [
   },
   {
     num: "02",
+    name: "Jumper",
+    description:
+      "Terminal endless-runner written in Go — a fixed-timestep game loop with a dedicated input goroutine and string-builder rendering. Shipped via Homebrew as a universal macOS binary.",
+    stack: "Go · Terminal UI · Homebrew",
+    link: "https://github.com/chijiooke/jumper",
+    linkLabel: "GitHub",
+  },
+  {
+    num: "03",
     name: "ReconX",
     description:
       "Threat intelligence platform built for African businesses. Provides actionable security insights and risk visibility for organisations operating in high-risk and emerging market environments.",
     stack: "Node.js · TypeScript",
     link: "https://tryreconx.com",
     linkLabel: "Visit",
-  },
-  {
-    num: "03",
-    name: "Real Stay",
-    description:
-      "Real estate listing platform with built-in chat, ID verification, and geospatial property search — enabling users to find and vet properties with confidence.",
-    stack: "NestJS · MongoDB · TypeScript",
-    link: "https://github.com/chijiooke/real-stay",
-    linkLabel: "GitHub",
   },
   {
     num: "04",
@@ -93,15 +126,6 @@ export const projects = [
     stack: "WebRTC · Socket.IO · Node.js",
     link: "https://fastmeet.cam",
     linkLabel: "Visit",
-  },
-  {
-    num: "05",
-    name: "OCR App",
-    description:
-      "Node.js + TypeScript tool that converts images to machine-readable, searchable PDFs using optical character recognition — built for document digitisation at scale.",
-    stack: "Node.js · TypeScript · OCR",
-    link: "https://github.com/chijiooke/OCR-typescript",
-    linkLabel: "GitHub",
   },
 ];
 

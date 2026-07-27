@@ -21,20 +21,23 @@ export default function About() {
 
         <div>
           {/* Avatar */}
-          <div className="reveal d1 w-80 h-80 rounded-full overflow-hidden border border-grey-1">
+          <div className="reveal d1 w-72 h-72 sm:w-80 sm:h-80 lg:w-[25rem] lg:h-[30rem] mb-10 rounded-[1.5rem] overflow-hidden border border-grey-1">
             <Image
-              src="/michael.png"
+              src="/avatar.jpg"
               alt="Chijioke"
-              width={80}
-              height={80}
-              className="w-full h-full object-cover object-top grayscale"
+              width={1200}
+              height={1200}
+              className="w-full h-full object-cover object-center"
             />
           </div>
           <h2
-            className="reveal font-serif leading-[1.38] tracking-[-0.02em] text-ink mb-10"
+            className="reveal font-serif leading-[1.38] tracking-[-0.02em] text-ink mb-10 text-balance"
             style={{ fontSize: "clamp(1.5rem, 2.6vw, 2.2rem)" }}
           >
-            Software engineer. Product thinker. I own problems end-to-end.
+            <span className="text-grey-3">
+              Software engineer. Product thinker.
+            </span>{" "}
+            I design, build, and structure systems that last.
           </h2>
 
           <p className="reveal d1 text-[0.95rem] text-grey-4 leading-[1.8] max-w-[40rem] mb-8">
