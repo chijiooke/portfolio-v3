@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { ARROW } from "./arrow";
 
 const links = [
   { href: "#about",      label: "About" },
@@ -143,7 +144,7 @@ export default function Nav() {
               rel="noopener noreferrer"
               className="text-[0.75rem] tracking-[0.12em] uppercase text-grey-3 no-underline hover:text-ink transition-colors duration-200"
             >
-              {s.label} ↗
+              {s.label} {ARROW}
             </a>
           ))}
         </div>

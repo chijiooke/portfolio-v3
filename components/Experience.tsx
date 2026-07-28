@@ -1,4 +1,5 @@
 import { experience } from "@/data";
+import { ARROW } from "./arrow";
 
 const toHref = (url: string) =>
   url.startsWith("http") ? url : `https://${url}`;
@@ -61,7 +62,7 @@ export default function Experience() {
                     rel="noopener noreferrer"
                     className="text-grey-2 text-[0.9em] ml-2 align-middle transition-colors duration-200 hover:text-ink"
                   >
-                    ↗
+                    {ARROW}
                   </a>
                 )}
               </p>
@@ -95,7 +96,7 @@ export default function Experience() {
                           rel="noopener noreferrer"
                           className="text-grey-2 text-[0.9rem]"
                         >
-                          ↗
+                          {ARROW}
                         </a>
                       )}
                     </div>

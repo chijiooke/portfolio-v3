@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import { projects } from "@/data";
+import { ARROW } from "./arrow";
 
 function ProjectCard({
   proj,
@@ -39,7 +40,7 @@ function ProjectCard({
           rel="noopener noreferrer"
           className="text-[0.74rem] text-grey-3 no-underline tracking-[0.05em] transition-colors duration-200 hover:text-cream flex items-center gap-1 shrink-0"
         >
-          {proj.linkLabel} ↗
+          {proj.linkLabel} {ARROW}
         </a>
       </div>
     </div>
@@ -83,7 +84,7 @@ export default function Projects() {
               rel="noopener noreferrer"
               className="text-grey-3 no-underline border-b border-[#333] pb-px transition-colors duration-200 hover:text-[#aaa]"
             >
-              github.com/chijiooke ↗
+              github.com/chijiooke {ARROW}
             </a>
           </p>
         </div>

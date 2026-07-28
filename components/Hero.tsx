@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { ARROW } from "./arrow";
 
 // Faint background greeting, cycled through a few languages
 const greetings = [
@@ -131,7 +132,7 @@ export default function Hero() {
             >
               View Work
               <span className="transition-transform duration-200 group-hover:translate-x-[3px] group-hover:-translate-y-[3px]">
-                ↗
+                {ARROW}
               </span>
             </a>
             <a
@@ -140,7 +141,7 @@ export default function Hero() {
             >
               Get in Touch
               <span className="transition-transform duration-200 group-hover:translate-x-[3px] group-hover:-translate-y-[3px]">
-                ↗
+                {ARROW}
               </span>
             </a>
           </div>
